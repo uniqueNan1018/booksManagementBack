@@ -125,11 +125,9 @@ mvn clean install
 mvn spring-boot:run
 
 ```
-###または BooksManagementBackApplication.java をIDEから実行。
+### または BooksManagementBackApplication.java をIDEから実行。
 
 ## 使用技術詳細
-
-```markdown
 
 | 技術              | 説明                                               |
 |-------------------|----------------------------------------------------|
@@ -140,7 +138,6 @@ mvn spring-boot:run
 | HikariCP          | 高速なDBコネクションプール                          |
 | Lombok            | ボイラープレートコード削減用アノテーションライブラリ    |
 
-```
 
 ## 開発・テスト
 - BookController 経由でAPIアクセスを行い、データベースのCRUD操作が可能です。
